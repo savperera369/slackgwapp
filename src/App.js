@@ -7,25 +7,15 @@ import Media from './pages/Media';
 import ChildrensCorner from './pages/ChildrensCorner';
 import BoardOfDirectors from './pages/BoardOfDirectors';
 import Contact from './pages/Contact';
-import { AppBar, Toolbar, Typography } from '@mui/material';
+import Navbar from './components/Navbar';
 import { BrowserRouter, Route, Routes} from 'react-router-dom';
 
 function App() {
 
   return (
     <BrowserRouter>
-    <img id="mainImg" src="https://www.tricitysrilanka.com/images/banner.jpg" alt="sri lanka"></img>
-     <AppBar position="relative">
-        <Toolbar className="appbar">
-          <Typography variant="subtitle1"  style={{ marginRight: 16 }} color="white" noWrap>Home</Typography>
-          <Typography variant="subtitle1" style={{ marginRight: 16 }} color="white" noWrap>About</Typography>
-          <Typography variant="subtitle1" style={{ marginRight: 16 }} color="white" noWrap>Events</Typography>
-          <Typography variant="subtitle1" style={{ marginRight: 16 }} color="white" noWrap>Services</Typography>
-          <Typography variant="subtitle1" style={{ marginRight: 16 }} color="white" noWrap>Contact</Typography>
-          <Typography variant="subtitle1" style={{ marginRight: 16 }} color="white" noWrap>Members</Typography>
-          <Typography variant="subtitle1" style={{ marginRight: 16 }} color="white" noWrap>Photos/Videos</Typography>
-        </Toolbar>
-      </AppBar>
+      <img id="mainImg" src="https://www.tricitysrilanka.com/images/banner.jpg" alt="sri lanka"></img>
+     <Navbar />
      <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/history' element={<About />} />
