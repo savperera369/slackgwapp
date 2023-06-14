@@ -33,6 +33,10 @@ code {
   background-color: #F7C5CC;
 }
 
+.menuItem {
+  background-color: #990011;
+}
+
 .slick-prev:before,
 .slick-next:before {
   color: black!important;

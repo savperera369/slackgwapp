@@ -8,6 +8,7 @@ import ChildrensCorner from './pages/ChildrensCorner';
 import BoardOfDirectors from './pages/BoardOfDirectors';
 import Contact from './pages/Contact';
 import Navbar from './components/Navbar';
+import Links from './pages/Links';
 import { BrowserRouter, Route, Routes} from 'react-router-dom';
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
         <Route path='/media' element={<Media />} />
         <Route path='/children' element={<ChildrensCorner />} />
         <Route path='/contact' element={<Contact />} />
+        <Route path='/links' element={<Links />} />
      </Routes>
     </BrowserRouter>
   );
