@@ -1,6 +1,6 @@
 import React from 'react';
 import '../index.css';
-import { Typography, CssBaseline, Grid, Container} from '@mui/material';
+import { Typography, Container} from '@mui/material';
 
 
 function About() {

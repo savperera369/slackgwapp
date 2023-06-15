@@ -9,6 +9,7 @@ function Navbar() {
     const servicesButton = [{path: "/projects", name: "Projects"}, {path: "/links", name: "Links"}];
     const memberButton = [{path: "/children", name: "Childrens Corner"}];
     const contactButton = [{path: "/contact", name: "Contact Information"}];
+    const eventsButton = [{path: "/upcomingevents", name: "Upcoming Events"}];
     const navigate = useNavigate();
 
     return (
@@ -17,7 +18,7 @@ function Navbar() {
             <Stack direction="row" spacing={2}>
                 <Button color="inherit" id="home-btn" onClick={()=>navigate("/")}>Home</Button>
                 <MenuComponent buttonName="about-btn" menuId="about-menu" menuName="About" routes={aboutButton}/>
-                <Button color="inherit" id="events-btn">Events</Button>
+                <MenuComponent buttonName="events-btn" menuId="events-menu" menuName="Events" routes={eventsButton}/>
                 <MenuComponent buttonName="services-btn" menuId="services-menu" menuName="Services" routes={servicesButton}/>
                 <MenuComponent buttonName="contact-btn" menuId="contact-menu" menuName="Contact" routes={contactButton}/>
                 <MenuComponent buttonName="members-btn" menuId="members-menu" menuName="Members" routes={memberButton}/>

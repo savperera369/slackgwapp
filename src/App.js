@@ -9,6 +9,7 @@ import BoardOfDirectors from './pages/BoardOfDirectors';
 import Contact from './pages/Contact';
 import Navbar from './components/Navbar';
 import Links from './pages/Links';
+import UpcomingEvents from './pages/UpcomingEvents';
 import { BrowserRouter, Route, Routes} from 'react-router-dom';
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
         <Route path='/children' element={<ChildrensCorner />} />
         <Route path='/contact' element={<Contact />} />
         <Route path='/links' element={<Links />} />
+        <Route path='/upcomingevents' element={<UpcomingEvents />} />
      </Routes>
     </BrowserRouter>
   );

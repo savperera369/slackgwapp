@@ -1,6 +1,6 @@
 import React from 'react';
 import '../index.css';
-import { Typography, Card, CardActions, CardContent, CardMedia, CssBaseline, Grid, Container} from '@mui/material';
+import { Typography, Card, CardContent, CardMedia, Container} from '@mui/material';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; 
 import Sponsors from '../components/Sponsors';
 
