@@ -11,6 +11,7 @@ import Navbar from './components/Navbar';
 import Links from './pages/Links';
 import UpcomingEvents from './pages/UpcomingEvents';
 import PastEvents from './pages/PastEvents';
+import EventsCalendar from './pages/EventsCalendar';
 import { BrowserRouter, Route, Routes} from 'react-router-dom';
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
         <Route path='/links' element={<Links />} />
         <Route path='/upcomingevents' element={<UpcomingEvents />} />
         <Route path='/pastevents' element={<PastEvents />} />
+        <Route path='/eventscalendar' element={<EventsCalendar />} />
      </Routes>
     </BrowserRouter>
   );

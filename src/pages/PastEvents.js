@@ -9,7 +9,7 @@ function PastEvents(){
         <Container className="topDoc">
             <Typography variant="h4">Past Events</Typography>
             <br />
-            <Stack alignItems="start" spacing={2}>
+            <Stack direction="row" spacing={2}>
                 <Card sx={{backgroundColor:"#FCF6F5"}} variant="outlined">
                     <CardContent>
                         <Stack alignItems="start" spacing={1}>
