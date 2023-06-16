@@ -21,7 +21,7 @@ function ChildrensCorner() {
             <br />
             <Typography variant="h6">Paintings</Typography>
             <br />
-            <Typography variant="body2">These paintings were created by our children at Summer Event 2015.</Typography>
+            <Typography variant="body1">These paintings were created by our children at Summer Event 2015.</Typography>
             <br />
             <CardCreator photoArray={imageArr} space={3}/>
         </Container>

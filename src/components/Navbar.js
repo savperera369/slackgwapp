@@ -9,7 +9,7 @@ function Navbar() {
     const servicesButton = [{path: "/projects", name: "Projects"}, {path: "/links", name: "Links"}];
     const memberButton = [{path: "/children", name: "Childrens Corner"}];
     const contactButton = [{path: "/contact", name: "Contact Information"}];
-    const eventsButton = [{path: "/upcomingevents", name: "Upcoming Events"}];
+    const eventsButton = [{path: "/upcomingevents", name: "Upcoming Events"}, {path: "/pastevents", name: "Past Events"}];
     const navigate = useNavigate();
 
     return (

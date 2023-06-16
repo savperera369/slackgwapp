@@ -1,6 +1,6 @@
 import React from 'react';
 import '../index.css';
-import { Typography, Container, Stack, Box, Link} from '@mui/material';
+import { Typography, Container, Stack, Card, CardContent, Link} from '@mui/material';
 
 function UpcomingEvents() {
     return (
@@ -20,12 +20,16 @@ function UpcomingEvents() {
                 loading="lazy" 
                 referrerpolicy="no-referrer-when-downgrade">
                 </iframe>
-                <Box>
-                    <Typography variant="body1">Date: July 8th, 2023</Typography>
-                    <Typography variant="body1">Time: 8:00AM - 6:00PM</Typography>
-                    <Typography variant="body1">Location: Waterloo Park West Gazebo, Waterloo, Ontario</Typography>
-                    <Typography variant="body1">More Information: <Link component="button" variant="body1" onClick={() => window.open("https://docs.google.com/forms/d/e/1FAIpQLSexp19_rc7MKz5KTwm2VSjlEGLORJKoxZHVsRBtGTys7Whzfw/viewform")}> Registration Form</Link></Typography>
-                </Box>
+                <Card sx={{backgroundColor:"#FCF6F5"}}variant="outlined">
+                    <CardContent className='card'>
+                        <Stack alignItems="start" spacing={1}>
+                            <Typography variant="body1">Date: July 8th, 2023</Typography>
+                            <Typography variant="body1">Time: 8:00AM - 6:00PM</Typography>
+                            <Typography variant="body1">Location: Waterloo Park West Gazebo, Waterloo, Ontario</Typography>
+                            <Typography variant="body1">More Information: <Link component="button" variant="body1" onClick={() => window.open("https://docs.google.com/forms/d/e/1FAIpQLSexp19_rc7MKz5KTwm2VSjlEGLORJKoxZHVsRBtGTys7Whzfw/viewform")}> Registration Form</Link></Typography>
+                        </Stack>
+                    </CardContent>
+                </Card>
             </Stack>
         </Container>
     );

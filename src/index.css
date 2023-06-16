@@ -37,6 +37,10 @@ code {
   background-color: #990011;
 }
 
+.card {
+  background-color: #FCF6F5;
+}
+
 .slick-prev:before,
 .slick-next:before {
   color: black!important;
