@@ -33,15 +33,15 @@ function UpcomingEvents() {
                     </Card>
                 </Box>
             </Stack>
-            <div>
+            <Box>
                 <img src={require("../images/imageOne.jpeg")} alt="more-directions" height="400" width="400"/>
-            </div>
-            <div>
+            </Box>
+            <Box>
                 <img src={require("../images/imageTwo.jpeg")} alt="more-directions-two" height="400" width="400"/>
-            </div>
-            <div>
+            </Box>
+            <Box>
                 <img src={require("../images/imageThree.jpeg")} alt="more-directions-three" height="400" width="400"/>
-            </div>
+            </Box>
         </Container>
     );
 }
