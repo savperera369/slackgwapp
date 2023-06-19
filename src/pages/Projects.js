@@ -72,7 +72,7 @@ function Projects () {
                 </Card>
                 <Card variant="outlined" sx={{backgroundColor:"#FCF6F5"}}>
                     <CardContent>
-                        <Typography align="center" variant="h5">Fundraising for Tsunami victims (2004)</Typography>
+                        <Typography align="center" variant="h5">Fundraising for Tsunami Victims (2004)</Typography>
                         <ul>
                             <li><Typography variant="body1">Supporting victims of 2004 Boxing day Tsunami</Typography></li>
                             <li><Typography variant="body1">Year: 2003/2004</Typography></li>
