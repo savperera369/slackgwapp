@@ -8,7 +8,7 @@ function Navbar() {
     const aboutButton = [{path: "/history", name: "History"}, {path: "/board", name: "Board of Directors"}, {path: "/bylaws", name: "ByLaws"}];
     const servicesButton = [{path: "/projects", name: "Projects"}, {path: "/links", name: "Links"}];
     const memberButton = [{path: "/children", name: "Childrens Corner"}];
-    const contactButton = [{path: "/contact", name: "Contact Information"}];
+    const contactButton = [{path: "/contact", name: "Contact Information"}, {path: "/becomemember", name: "Become A Member"}];
     const eventsButton = [{path: "/eventscalendar", name: "Events Calendar"}, {path: "/upcomingevents", name: "Upcoming Events"}, {path: "/pastevents", name: "Past Events"}];
     const navigate = useNavigate();
 

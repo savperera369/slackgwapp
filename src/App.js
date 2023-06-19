@@ -12,6 +12,7 @@ import Links from './pages/Links';
 import UpcomingEvents from './pages/UpcomingEvents';
 import PastEvents from './pages/PastEvents';
 import EventsCalendar from './pages/EventsCalendar';
+import BecomeAMember from './pages/BecomeAMember';
 import { BrowserRouter, Route, Routes} from 'react-router-dom';
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
         <Route path='/upcomingevents' element={<UpcomingEvents />} />
         <Route path='/pastevents' element={<PastEvents />} />
         <Route path='/eventscalendar' element={<EventsCalendar />} />
+        <Route path='/becomemember' element={<BecomeAMember />} />
      </Routes>
     </BrowserRouter>
   );
