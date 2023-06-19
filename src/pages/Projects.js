@@ -2,17 +2,9 @@ import React from 'react';
 import '../index.css';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Slider from "react-slick";
 import { Typography, Container, Stack, Link, Card, CardContent} from '@mui/material';
 
 function Projects () {
-    var settings = {
-        dots: true,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 1,
-        slidesToScroll: 1
-      };
     return (
         <Container className="topDoc">
             <Typography variant="h4">Projects</Typography>
