@@ -7,7 +7,7 @@ import Sponsors from '../components/Sponsors';
 function Home() {
   return (
     <Container align="center" className="topDoc">
-     <Typography variant="h4">Upcoming Events</Typography>
+     <Typography variant="h4">Current Events</Typography>
       <Card className="topDoc" sx={{ maxWidth: 800 }}>
         <CardMedia component="img" height="450" image={require("../images/summerevent.jpeg")} title="summer-event"/>
         <CardContent><Typography variant="body1">2023 Summer Event</Typography></CardContent>
