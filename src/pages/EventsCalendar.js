@@ -12,7 +12,7 @@ function EventsCalendar(){
     const navigate = useNavigate();
     return(
         <Container className="topDoc">
-            <Typography sx={{margin: 2}} variant="h4">Calendar</Typography>
+            <Typography sx={{margin: 2}} align="center" variant="h4">Calendar</Typography>
             <LocalizationProvider dateAdapter={AdapterDayjs}>
                 <DateCalendar sx={{backgroundColor: "#FCF6F5", border: '1px solid'}} defaultValue={dayjs('2023-07-08')} readOnly />
             </LocalizationProvider>
