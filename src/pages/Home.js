@@ -13,7 +13,7 @@ function Home() {
         <CardContent><Typography variant="body1">2023 Summer Event</Typography></CardContent>
       </Card>
       <br />
-      <Typography variant="h5">Sponsors</Typography>
+      <Typography variant="h5" sx={{margin: 2}}>Sponsors</Typography>
       <Sponsors />
     </Container>
   );
