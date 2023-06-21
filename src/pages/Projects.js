@@ -1,7 +1,9 @@
 import React from 'react';
 import '../index.css';
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+import idp from "../pdfs/IDP_project_2009.pdf";
+import ranaviru from "../pdfs/Ranaviru_project_2009.pdf";
+import flood from "../pdfs/project_flood_2004.pdf";
+import tsunami from "../pdfs/tsunami_project_2005.pdf";
 import { Typography, Container, Stack, Link, Card, CardContent} from '@mui/material';
 
 function Projects () {
@@ -17,7 +19,7 @@ function Projects () {
                             <li><Typography variant="body1">Distribution of books to schools in war effected areas in Sri Lanka.</Typography></li>
                             <li><Typography variant="body1">Year: 2009/2010</Typography></li>
                             <li><Typography variant="body1">Funds: 50% of generated profit of the year 2009/2010 or equal to CAD 800/-</Typography></li>
-                            <li><Typography variant="body1"><Link href="https://www.tricitysrilanka.com/pages/pdfs/IDP_project_2009.pdf">Download Project Report</Link></Typography></li>
+                            <li><Typography variant="body1"><Link href={idp} target="_blank" rel="noreferrer">Download Project Report</Link></Typography></li>
                         </ul>
                     </CardContent>
                 </Card>
@@ -29,7 +31,7 @@ function Projects () {
                             <li><Typography variant="body1">Year: 2009/2010</Typography></li>
                             <li><Typography variant="body1">Funds: 50% of generated profit of the year 2009/2010 or equal to CAD 800/-</Typography></li>
                             <li><Typography variant="body1">Co-ordinators in Sri Lanka : Sri Lanka Army Rehabilitation Centre, Ragama, Sri Lanka (Ranaviru Sevana); Capt. Rohan Attipola; and Nishantha Vilathgamuwa</Typography></li>
-                            <li><Typography variant="body1"><Link href="https://www.tricitysrilanka.com/pages/pdfs/Ranaviru_project_2009.pdf">Download Project Report</Link></Typography></li>
+                            <li><Typography variant="body1"><Link href={ranaviru} target="_blank" rel="noreferrer">Download Project Report</Link></Typography></li>
                         </ul>
                     </CardContent>
                 </Card>
@@ -58,7 +60,7 @@ function Projects () {
                             <li><Typography variant="body1">Supporting the victims of 2003 Flood.</Typography></li>
                             <li><Typography variant="body1">Year: 2003/2004</Typography></li>
                             <li><Typography variant="body1">Funds: CAD 475/- worth of funds and 12 crates of cloths, shoes, and toys.</Typography></li>
-                            <li><Typography variant="body1"><Link href="https://www.tricitysrilanka.com/pages/pdfs/project_flood_2004.pdf">Download Project Report</Link></Typography></li>
+                            <li><Typography variant="body1"><Link href={flood} target="_blank" rel="noreferrer">Download Project Report</Link></Typography></li>
                         </ul>
                    </CardContent>
                 </Card>
@@ -69,7 +71,7 @@ function Projects () {
                             <li><Typography variant="body1">Supporting victims of 2004 Boxing day Tsunami</Typography></li>
                             <li><Typography variant="body1">Year: 2003/2004</Typography></li>
                             <li><Typography variant="body1">Funds: CAD 15,024/- worth of funds donated for the center for development facilitation.</Typography></li>
-                            <li><Typography variant="body1"><Link href="https://www.tricitysrilanka.com/pages/pdfs/tsunami_project_2005.pdf">Download Project Report</Link></Typography></li>
+                            <li><Typography variant="body1"><Link href={tsunami} target="_blank" rel="noreferrer">Download Project Report</Link></Typography></li>
                         </ul>
                     </CardContent>
                 </Card>
