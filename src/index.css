@@ -45,3 +45,21 @@ code {
 .slick-next:before {
   color: black!important;
 }
+
+.carousel .carousel-item {
+  height: 600px;
+}
+
+.carousel-item img {
+    position: absolute;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    min-height: 600px;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  filter: invert(100%);
+  font-size: 200px;
+}

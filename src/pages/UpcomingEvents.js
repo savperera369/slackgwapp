@@ -33,15 +33,34 @@ function UpcomingEvents() {
                     </Card>
                 </Box>
             </Stack>
-            <Box>
-                <img src={require("../images/imageOne.jpeg")} alt="more-directions" height="400" width="400"/>
+            <Box sx={{margin: 4}}align="center">
+                <button align="center" class="btn btn-danger" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                    Click for more details
+                </button>
             </Box>
-            <Box>
-                <img src={require("../images/imageTwo.jpeg")} alt="more-directions-two" height="400" width="400"/>
-            </Box>
-            <Box>
-                <img src={require("../images/imageThree.jpeg")} alt="more-directions-three" height="400" width="400"/>
-            </Box>
+            <div class="collapse" id="collapseExample">
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src={require("../images/imageOne.jpeg")} alt="more-directions" />
+                </div>
+                <div class="carousel-item">
+                    <img src={require("../images/imageTwo.jpeg")} alt="more-directions-two"/>
+                </div>
+                <div class="carousel-item">
+                    <img src={require("../images/imageThree.jpeg")} alt="more-directions-three"/>
+                </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            </div>
         </Container>
     );
 }
