@@ -1,13 +1,18 @@
 import React from 'react';
 import '../index.css';
-import { Typography, Container, Link} from '@mui/material';
+import bylaws from '../pdfs/by_laws.pdf';
+import { Typography, Container, Link, Card, CardContent} from '@mui/material';
 
 function ByLaws () {
     return (
         <Container className="topDoc">
             <Typography variant="h4">By Laws</Typography>
             <br />
-            <Typography variant="body1"><Link href="https://www.tricitysrilanka.com/pages/pdfs/by_laws.pdf">Download a Copy of the Bylaws</Link></Typography>
+            <Card sx={{backgroundColor:"#FCF6F5"}} variant="outlined">
+                <CardContent>
+                    <Typography variant="body1"><Link href={bylaws} target="_blank" rel="noreferrer">Download a Copy of the Bylaws</Link></Typography>
+                </CardContent>
+            </Card>
         </Container>
     );
 }
