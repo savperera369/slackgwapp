@@ -7,6 +7,7 @@ import { useNavigate } from 'react-router-dom';
 function Footer(){
     const navigate = useNavigate();
     return (
+        <footer className='footer'>
         <AppBar position="relative">
         <Toolbar sx={{padding: 2}} className="appbar">
             <Grid container justify="flex-end" direction="row" alignItems="center"spacing={2}>
@@ -24,6 +25,7 @@ function Footer(){
             </Grid>
         </Toolbar>
       </AppBar>
+      </footer>
     );
 }
 

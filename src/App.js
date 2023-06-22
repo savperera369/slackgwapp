@@ -19,26 +19,28 @@ import { BrowserRouter, Route, Routes} from 'react-router-dom';
 function App() {
 
   return (
+    <div className="page-container">
     <BrowserRouter>
       <img id="mainImg" src="https://www.tricitysrilanka.com/images/banner.jpg" alt="sri lanka"></img>
      <Navbar />
      <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/history' element={<About />} />
-        <Route path='/board' element={<BoardOfDirectors />} />
-        <Route path='/bylaws' element={<ByLaws />} />
-        <Route path='/projects' element={<Projects />} />
+        <Route path='/' element={<div className="content-wrapper"><Home /></div>} />
+        <Route path='/history' element={<div className="content-wrapper"><About /></div>} />
+        <Route path='/board' element={<div className="content-wrapper"><BoardOfDirectors /></div>} />
+        <Route path='/bylaws' element={<div className="content-wrapper"><ByLaws /></div>} />
+        <Route path='/projects' element={<div className="content-wrapper"><Projects /></div>} />
         <Route path='/media' element={<Media />} />
-        <Route path='/children' element={<ChildrensCorner />} />
-        <Route path='/contact' element={<Contact />} />
-        <Route path='/links' element={<Links />} />
-        <Route path='/upcomingevents' element={<UpcomingEvents />} />
-        <Route path='/pastevents' element={<PastEvents />} />
-        <Route path='/eventscalendar' element={<EventsCalendar />} />
-        <Route path='/becomemember' element={<BecomeAMember />} />
+        <Route path='/children' element={<div className="content-wrapper"><ChildrensCorner /></div>} />
+        <Route path='/contact' element={<div className="content-wrapper"><Contact /></div>} />
+        <Route path='/links' element={<div className="content-wrapper"><Links /></div>} />
+        <Route path='/upcomingevents' element={<div className="content-wrapper"><UpcomingEvents /></div>} />
+        <Route path='/pastevents' element={<div className="content-wrapper"><PastEvents /></div>} />
+        <Route path='/eventscalendar' element={<div className="content-wrapper"><EventsCalendar /></div>} />
+        <Route path='/becomemember' element={<div className="content-wrapper"><BecomeAMember /></div>} />
      </Routes>
      <Footer />
     </BrowserRouter>
+    </div>
   );
 }
 
