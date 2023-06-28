@@ -6,7 +6,7 @@ import GroupsIcon from '@mui/icons-material/Groups';
 
 function BecomeAMember(){
     return (
-        <Container className="topDoc">
+        <Container sx={{height:1}} className="topDoc">
             <Typography variant="h4">Become A Member</Typography>
             <br />
             <Card sx={{backgroundColor:"#FCF6F5"}} variant="outlined">

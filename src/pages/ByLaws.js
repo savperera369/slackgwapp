@@ -7,7 +7,7 @@ import ArticleIcon from '@mui/icons-material/Article';
 function ByLaws () {
     return (
         <Container className="topDoc">
-            <Typography variant="h4">Bylaws</Typography>
+            <Typography variant="h4">Our Policies</Typography>
             <br />
             <Card sx={{backgroundColor:"#FCF6F5"}} variant="outlined">
                 <CardContent>
