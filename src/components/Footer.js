@@ -21,6 +21,7 @@ function Footer(){
                     <Stack alignItems="center" spacing={0}>
                         <Typography sx={{marginBottom: 1}} variant="h6">Quick Links</Typography>
                         <Button color="inherit" onClick={()=>navigate("/contact")}>Contact Us</Button>
+                        <Button color="inherit" onClick={()=>navigate("/board")}>Board of Directors</Button>
                         <Button color="inherit" onClick={()=>navigate("/upcomingevents")}>Upcoming Events</Button>
                         <Button color="inherit" onClick={()=>navigate("/eventscalendar")}>Events Calendar</Button>
                         <Button color="inherit" onClick={()=>navigate("/bylaws")}>Bylaws</Button>

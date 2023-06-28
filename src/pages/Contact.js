@@ -2,7 +2,7 @@ import React from 'react';
 import '../index.css';
 import { Typography, Container, Stack, Card, CardContent} from '@mui/material';
 import EmailIcon from '@mui/icons-material/Email';
-import LocalPostOfficeIcon from '@mui/icons-material/LocalPostOffice';
+import ContactMailIcon from '@mui/icons-material/ContactMail';
 
 function Contact(){
     return (
@@ -27,7 +27,7 @@ function Contact(){
             <Card variant="outlined">
                 <CardContent className="card">
                     <Stack spacing={2}>
-                        <LocalPostOfficeIcon />
+                        <ContactMailIcon />
                         <Typography fontWeight="bold" variant="h6">By Post</Typography>
                         <Typography variant="body1">You can reach us by post as well.</Typography>
                         <Typography variant="body1">Postal Address: 427 Lausanne Cresent Waterloo, ON, N2T 2X6, Canada</Typography>
