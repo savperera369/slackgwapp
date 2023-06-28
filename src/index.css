@@ -72,3 +72,7 @@ code {
   filter: invert(100%);
   font-size: 200px;
 }
+
+.dropdown>a::after {
+  color: white;
+}

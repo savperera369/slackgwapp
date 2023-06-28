@@ -12,7 +12,7 @@ function MenuComponent({menuName, routes}) {
                     {route.name}</NavDropdown.Item>)
     return (
         <>
-        <NavDropdown title={menuName} id="basic-nav-dropdown">
+        <NavDropdown title={<span style={{color:"white"}}>{menuName}</span>} id="basic-nav-dropdown">
               {navItems}
         </NavDropdown>
         </>

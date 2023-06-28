@@ -11,7 +11,7 @@ function BecomeAMember(){
             <br />
             <Card sx={{backgroundColor:"#FCF6F5"}} variant="outlined">
                 <CardContent>
-                    <GroupsIcon sx={{height:50, width:50}} />
+                    <GroupsIcon sx={{height:50, width:50, marginBottom:1}} />
                     <br />
                     <Link variant="body1" href={slackForm} target="_blank" rel="noreferrer">Membership Form</Link>
                 </CardContent>
