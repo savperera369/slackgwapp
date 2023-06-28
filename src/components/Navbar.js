@@ -5,7 +5,7 @@ import MenuComponent from './MenuComponent';
 import { useNavigate } from 'react-router-dom';
 
 function Navbar() {
-    const aboutButton = [{path: "/history", name: "History"}, {path: "/board", name: "Board of Directors"}, {path: "/bylaws", name: "ByLaws"}];
+    const aboutButton = [{path: "/history", name: "History"}, {path: "/board", name: "Board of Directors"}, {path: "/bylaws", name: "Bylaws"}];
     const servicesButton = [{path: "/projects", name: "Projects"}, {path: "/links", name: "Links"}];
     const memberButton = [{path: "/children", name: "Childrens Corner"}, {path: "/becomemember", name: "Become A Member"}];
     const contactButton = [{path: "/contact", name: "Contact Information"}];

@@ -1,6 +1,6 @@
 import React from 'react';
 import '../index.css';
-import { Typography, Container, Card, Link} from '@mui/material';
+import { Typography, Container, Card, Button} from '@mui/material';
 import dayjs from 'dayjs';
 import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
 import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
@@ -18,7 +18,7 @@ function EventsCalendar(){
             </LocalizationProvider>
             <Card sx={{backgroundColor:"#FCF6F5", margin: 2, padding: 2}} variant="outlined">
                 <Typography align="center" variant="h6">Key Events</Typography>
-                <Typography variant="body1">1.{" "}<Link component="button" variant="body1" onClick={() => navigate("/upcomingevents")}>Saturday, July 8th, 2023: Summer Event</Link></Typography>
+                <Button color="primary" onClick={()=>navigate("/upcomingevents")}>1. July 8th, 2023: Summer Event</Button>
             </Card>
         </Container>
     );

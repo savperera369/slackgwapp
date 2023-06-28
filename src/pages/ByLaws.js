@@ -6,7 +6,7 @@ import { Typography, Container, Link, Card, CardContent} from '@mui/material';
 function ByLaws () {
     return (
         <Container className="topDoc">
-            <Typography variant="h4">By Laws</Typography>
+            <Typography variant="h4">Bylaws</Typography>
             <br />
             <Card sx={{backgroundColor:"#FCF6F5"}} variant="outlined">
                 <CardContent>
