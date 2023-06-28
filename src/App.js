@@ -7,7 +7,7 @@ import Media from './pages/Media';
 import ChildrensCorner from './pages/ChildrensCorner';
 import BoardOfDirectors from './pages/BoardOfDirectors';
 import Contact from './pages/Contact';
-import Navbar from './components/Navbar';
+import ResponsiveNavbar from './components/ResponsiveNavbar';
 import Links from './pages/Links';
 import UpcomingEvents from './pages/UpcomingEvents';
 import PastEvents from './pages/PastEvents';
@@ -22,7 +22,7 @@ function App() {
     <div className="page-container">
     <BrowserRouter>
       <img id="mainImg" src="https://www.tricitysrilanka.com/images/banner.jpg" alt="sri lanka"></img>
-     <Navbar />
+     <ResponsiveNavbar />
      <Routes>
         <Route path='/' element={<div className="content-wrapper"><Home /></div>} />
         <Route path='/history' element={<div className="content-wrapper"><About /></div>} />

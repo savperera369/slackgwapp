@@ -11,7 +11,7 @@ function ByLaws () {
             <br />
             <Card sx={{backgroundColor:"#FCF6F5"}} variant="outlined">
                 <CardContent>
-                    <ArticleIcon />
+                    <ArticleIcon sx={{height: 50, width: 50}}/>
                     <br />
                     <Typography variant="body1"><Link href={bylaws} target="_blank" rel="noreferrer">Download a Copy of the Bylaws</Link></Typography>
                 </CardContent>
