@@ -14,7 +14,7 @@ function Projects () {
             <Stack spacing={3}>
                 <Card variant="outlined" sx={{backgroundColor:"#FCF6F5"}}>
                     <CardContent>
-                        <Typography align="center" variant="h5">IDP Project (2010)</Typography>
+                        <Typography align="center" variant="h5" sx={{marginBottom: 1}}>IDP Project (2010)</Typography>
                         <ul>
                             <li><Typography variant="body1">Distribution of books to schools in war effected areas in Sri Lanka.</Typography></li>
                             <li><Typography variant="body1">Year: 2009/2010</Typography></li>
@@ -25,7 +25,7 @@ function Projects () {
                 </Card>
                 <Card variant="outlined" sx={{backgroundColor:"#FCF6F5"}}>
                     <CardContent>
-                        <Typography align="center" variant="h5">Ranaviru Project (2010)</Typography>
+                        <Typography align="center" variant="h5" sx={{marginBottom: 1}}>Ranaviru Project (2010)</Typography>
                         <ul>
                             <li><Typography variant="body1">Distribution of commodes to disabled Soldiers in Sri Lanka.</Typography></li>
                             <li><Typography variant="body1">Year: 2009/2010</Typography></li>
@@ -37,7 +37,7 @@ function Projects () {
                 </Card>
                 <Card variant="outlined" sx={{backgroundColor:"#FCF6F5"}}>
                     <CardContent>
-                        <Typography align="center" variant="h5">Fundraising Event for Haiti (2010)</Typography>
+                        <Typography align="center" variant="h5" sx={{marginBottom: 1}}>Fundraising Event for Haiti (2010)</Typography>
                         <ul>
                             <li><Typography variant="body1">Held on February 20th, 2010.</Typography></li>
                             <li><Typography variant="body1">By the Sri Lankan Association of Cambridge, Guelph, Kitchener and Waterloo at the Pommaviharam Buddhist Temple, Kitchener.</Typography></li>
@@ -55,7 +55,7 @@ function Projects () {
                 </Card>
                 <Card variant="outlined" sx={{backgroundColor:"#FCF6F5"}}>
                    <CardContent>
-                        <Typography align="center" variant="h5">Fundraising for the Flood (2004)</Typography>
+                        <Typography align="center" variant="h5" sx={{marginBottom: 1}}>Fundraising for the Flood (2004)</Typography>
                         <ul>
                             <li><Typography variant="body1">Supporting the victims of 2003 Flood.</Typography></li>
                             <li><Typography variant="body1">Year: 2003/2004</Typography></li>
@@ -66,7 +66,7 @@ function Projects () {
                 </Card>
                 <Card variant="outlined" sx={{backgroundColor:"#FCF6F5"}}>
                     <CardContent>
-                        <Typography align="center" variant="h5">Fundraising for Tsunami Victims (2004)</Typography>
+                        <Typography align="center" variant="h5" sx={{marginBottom: 1}}>Fundraising for Tsunami Victims (2004)</Typography>
                         <ul>
                             <li><Typography variant="body1">Supporting victims of 2004 Boxing day Tsunami</Typography></li>
                             <li><Typography variant="body1">Year: 2003/2004</Typography></li>

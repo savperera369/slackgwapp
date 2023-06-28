@@ -39,37 +39,37 @@ function BoardOfDirectors() {
 
     return (
         <Container className="topDoc">
-           <Typography variant="h4">
+           <Typography sx={{marginBottom: 2}} align="center" variant="h4">
                  Board of Directors
             </Typography>
             <br />
             <Grid container spacing={2}>
                <Grid item xs={6}>
-                    <Typography align="center" variant="h6">2022/2023</Typography>
+                    <Typography fontWeight="bold" align="center" variant="h6" sx={{marginBottom: 1}}>2022/2023</Typography>
                     <List inputArr={bodTwentyTwo}/>       
                </Grid>
                <Grid item xs={6}>
-                    <Typography align="center" variant="h6">2017/2018</Typography>
+                    <Typography fontWeight="bold" align="center" variant="h6" sx={{marginBottom: 1}}>2017/2018</Typography>
                     <List inputArr={bodSeventeen}/>
                </Grid>
                <Grid item xs={6}>
-                     <Typography align="center" variant="h6">2015/2016</Typography>
+                     <Typography fontWeight="bold" align="center" variant="h6" sx={{marginBottom: 1}}>2015/2016</Typography>
                     <List inputArr={bodFifteen}/>         
                </Grid>
                <Grid item xs={6}>
-                    <Typography align="center" variant="h6">2013/2014</Typography>
+                    <Typography fontWeight="bold" align="center" variant="h6" sx={{marginBottom: 1}}>2013/2014</Typography>
                     <List inputArr={bodFourteen}/>   
                </Grid>
                <Grid item xs={6}>
-                    <Typography align="center" variant="h6">2012/2013</Typography>
+                    <Typography fontWeight="bold" align="center" variant="h6" sx={{marginBottom: 1}}>2012/2013</Typography>
                     <List inputArr={bodTwelve}/>   
                </Grid>
                <Grid item xs={6}>
-                    <Typography align="center" variant="h6">2011/2012</Typography>
+                    <Typography fontWeight="bold" align="center" variant="h6" sx={{marginBottom: 1}}>2011/2012</Typography>
                     <List inputArr={bodEleven}/>   
                </Grid>
                <Grid item xs={6}>
-                    <Typography align="center" variant="h6">2010/2011</Typography>
+                    <Typography fontWeight="bold" align="center" variant="h6" sx={{marginBottom: 1}}>2010/2011</Typography>
                     <List inputArr={bodTen}/>   
                </Grid>
             </Grid>
